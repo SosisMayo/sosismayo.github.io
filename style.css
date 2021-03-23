@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #66fcf1;
+    position: relative;
+    left: 49%;
+  }
+
+.contentJumbo h4{
+    margin-bottom: 100px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+.landing{
+    height: 100vh;
+}
+
+.jumbotron{
+    height: 100%;
+    background-image: url(images/markus-spiske-jG8nlwLRZTM-unsplash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.contentJumbo .name{
+    font-size: 40pt;
+    color: white;
+    line-height: 60pt;
+    color: #66fcf1;
+    font-weight: bolder;
+}
+
+.contentJumbo .name:hover span{
+    color: white;
+}
+
+.boxjudul{
+    border-bottom: 5px solid #c5c6c7;
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.about{
+    background-color: #c5c6c7;
+    border-top: 3px solid #66fcf1;
+}
+
+.about .h2{
+    font-weight: bold;
+}
+
+.about .container{
+    padding: 45px 0;
+}
+
+.rounded-circle{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    height: 250px;
+    width: 250px;
+}
+
+.deskripsi{
+    margin-bottom: 30px;
+}
+
+.subjudul{
+    margin: 5px;
+    border-bottom: 3px solid white;
+}
+
+.subjudul h3{
+    color: #45a29e;
+}
+
+
+.navbar{
+    opacity: 0.6;
+    position: fixed;
+    color: #c5c6c7;
+    z-index: 999;
+    left: 0;
+    right: 0;
+}
+
+.container .navbar-brand:hover{
+    color: #45a29e;
+    transform: scale(1.5,1.5);
+}
+
+.linknav:hover {
+    border-bottom: 2px solid #45a29e;
+    padding: 0px;
+}
+.linknav:hover a {
+    transform: scale(1.1,1.1);
+}
+
+.project{
+    background-color: #0b0c10;
+    border-top: 3px solid #66fcf1;
+}
+
+.projectjudul h2{
+    color:#66fcf1;
+    font-weight: bold;
+}
+
+.project .panah a{
+    text-decoration: none;
+    color: #66fcf1;
+    font-size: 15pt;
+}
+
+.project .panah:hover .more{
+    color: #c5c6c7;
+}
+.contact{
+    background-color: #c5c6c7;
+    border-top: 3px solid #66fcf1;
+}
+
+.contact .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact .judul{
+    color: #66fcf1;
+    font-weight: bold; 
+}
+
+.contact ul{
+    list-style: none;
+    margin: 150px 0 100px 0;
+}
+
+.contact .textjudul{
+    background-color: #0b0c10;
+    opacity: 0.8;
+    width: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 25pt;
+}
+
+.contact a:hover{
+    color: #45a29e;
+
+}
+
+.contact .textcenter{
+    font-weight: bold;
+}
+
+.footer{
+    border-top: 3px solid #66fcf1;
+    background-color: #0b0c10;
+}
+
+.footer .container{
+    color: #c5c6c7;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #66fcf1;
+}
+
+@media screen and (max-width:1323px ){
+    .contact a{
+        font-size: 10pt;
+    }
+}
